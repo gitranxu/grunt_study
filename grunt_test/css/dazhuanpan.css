@@ -1,0 +1,56 @@
+.wrap{margin: 0 auto;width: 1156px;background: #fcca40;padding: 22px;font-family:"微软雅黑", Arial, "Helvetica Neue", Helvetica, sans-serif;}
+.top{height: 224px;position: relative;}
+	.bg_top{position: absolute;top: -22px;left: 75px;width: 977px;height: 231px;}
+	.title{position: absolute;top: 0px;left: 324px;width: 496px;height: 185px;}
+	.coin{position: absolute;top: -12px;left: 39px;width: 999px;height: 926px;z-index: 3;}
+	.car{position: absolute;top: 174px;left: 130px;height: 75px;z-index: 3;}
+	.top .h1{position: absolute;top: 186px;left: 154px;width: 682px;height: 50px;line-height: 50px;padding: 0px 50px;background: #362e2b;font-weight: normal;z-index: 2;}
+		.txt{color: #ed304e;font-size: 30px;margin-left: 36px;}
+		.time{color: #fbc940;font-size: 22px;margin-left: -3px;}
+.mid{background: #feec85;height: 672px;border-radius: 8px;position: relative;}
+	.lenovo_logo{position: absolute;top: 20px;left: 18px;width: 54px;}
+	.bg_left{position: absolute;top: -154px;left: -20px;width: 267px;}
+	.bg_right{position: absolute;top: -178px;right: -20px;width: 247px;}
+	.panzone{position: absolute;top: 56px;left: 116px;z-index: 3;}
+		.pan{position: absolute;top: 0;left: 0;width: 583px;height: 583px;}
+		.start{position: absolute;top: 189px;left: 207px;width: 185px;height: 185px;cursor: pointer;}
+	.heros{width: 380px;height: 408px;position: absolute;left: 750px;top: 130px;box-shadow: 1px -1px 6px black;border-radius: 14px;overflow: hidden;background: #FEEC85;}
+		.hero_title{height: 34px;line-height: 34px;text-align: center;font-size: 19px;color: #fbc940;background: #362e2b;position: relative;z-index: 4;}
+		.heros table{width: 100%;position: absolute;top: 34px;left: 0;z-index: 3;}
+		.heros table td{height: 22px;line-height: 22px;font-size: 12px;color: #000000;}
+		.heros .col1{width: 40%;padding-left: 20px;}
+		.heros .col2{width: 20%;text-align: center;}
+		.heros .col3{text-align: right;padding-right: 20px;}
+		.heros .color1{background: #dcd9b9;}
+		.heros .color2{background: #efecc6}
+.bottom{margin-top: 18px;background: #feec85;border-radius: 8px;padding: 40px;}
+	.bottom .content{border: 1px solid #594940;padding: 30px 20px 24px 20px;position: relative;}
+		.bottom_title{position: absolute;top: -12px;left: 510px;padding-left: 20px;height: 22px;line-height: 22px;text-align: center;font-size: 15px;background: #feec85;padding-right: 10px;padding-left: 30px;color: #000000;}
+		.bottom .content .icon1{position: absolute;top: 0px;left: 0px;width: 22px;}
+		.bottom .content p{color: #2c2c2c;font-size: 13px;line-height: 24px;margin-bottom: 6px;}
+			.bottom .content p span{font-weight: bold;}
+
+.container{position: relative;}
+	.win{position: absolute;top: 0;left: 0;height: 100%;width: 100%;display: none;}
+		.win .bg{position: absolute;top: 0;left: 0;height: 100%;width: 100%;background: black;opacity: .5;filter:alpha(opacity=50);z-index: 4;}
+		.win .box{width: 282px;height: 196px;position: absolute;top: 42%;left: 50%;margin-top: -118px;margin-left: -161px;background: #d4d4d4;border-radius: 10px;z-index: 5;padding: 20px;}
+			.win .box .closebtn{position: absolute;top: 10px;right: 14px;font-size: 16px;color: #777777;cursor: pointer;z-index: 4;}
+			.win .box .coin2{position: absolute;bottom: -15px;left: 2px;}
+			.win .box .coin3{position: absolute;bottom: -52px;left: -42px;}
+			.win .box p{color: #906529;font-size: 16px;text-align: center;line-height: 26px;}
+			.win .box p	span{color: #ed304e;}
+			.win .box .boxitem{display: none;}
+
+	.win .winbtn{background: #fbdf44;border: 3px solid #eba838;color: #906529;font-size: 18px;text-align: center;height: 40px;line-height: 40px;display: block;border-radius: 40px;margin: 18px auto;padding: 0 10px;}
+	.win .b4{width: 158px;}
+	.win .fengxiang{width: 200px;margin: 0 auto;}
+		.win .fengxiang li{float: left;width: 30px;margin-right: 8px;}
+			.win .fengxiang li a{width: 29px;height: 29px;display: block;}
+		.win .fengxiang .li1{width: 46px;color: #906529;font-size: 15px;height: 29px;line-height: 29px;margin-right: 0;}
+		.fengxiang .sina,.fengxiang .qqzone,.fengxiang .weixin,.fengxiang .qq{background: url(../img/icon4.png) no-repeat;}
+		.fengxiang .sina{background-position: 0 0;}
+		.fengxiang .qqzone{background-position: -38px 0;}
+		.fengxiang .weixin{background-position: -75px 0;}
+		.fengxiang .qq{background-position: -111px 0;}
+
+.relative{position: relative;}

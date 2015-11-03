@@ -1,0 +1,760 @@
+<div id="site-nav">
+    <div class="ns_w clearfix">
+        <ul class="ns_nav_l">
+            <li><a target="_blank" href="http://appserver.lenovouat.cn/Lenovo_HouseHold_Index.aspx">个人及家用解决方案</a></li>
+            <li><a target="_blank" href="http://appserver.lenovouat.cn/Lenovo_Commercial_Index.aspx">商用PC及解决方案</a></li>
+            <li><a target="_blank" href="http://appserver.lenovouat.cn/Lenovo_EnterPrise_Index.aspx">企业级产品及解决方案</a></li>
+            <li><a target="_blank" href="http://appserver.lenovouat.cn/Lenovo_Service_Index.aspx">服务与支持</a></li>
+            <li><a target="_blank" href="http://www.vip.lenovouat.cn/">EPP会员专享</a></li>
+            <!--<li><a target="_blank" href="http://www.zuk.com/">ZUK官网</a></li>-->
+        </ul>
+        <div class="ns_top_link">
+            <div class="ns_top_title">想约我么<a href="javascript:;" class="usepng ns_top_down"></a></div>
+            <ul>
+                <li><a href="http://club.lenovo.com.cn/" target="_blank"><span class="usepng icont_shequ"></span><em>联想官方社区</em></a></li>
+                <li><a href="http://weibo.com/lenovo" target="_blank"><span class="usepng icont_sina"></span><em>联想官方微博</em></a></li>
+                <li><a href="http://weibo.com/5347290193/profile" target="_blank"><span class="usepng icont_yyq"></span><em>杨元庆微博</em></a></li>
+                <li><a href="http://mp.weixin.qq.com/s?__biz=MTAwODE1MDY4MQ==&mid=206356406&idx=1&sn=f7deb8e204994ba29541df143a01e3e0#rd" target="_blank"><span class="usepng icont_weixin"></span><em>联想官方微信</em></a></li>
+                <li><a href="http://tieba.baidu.com/f?kw=%C1%AA%CF%EB&fr" target="_blank"><span class="usepng icont_tieba"></span><em>百度贴吧联想吧</em></a></li>
+                <li><a href="http://s.p.qq.com/pub/jump?d=AAAOgv9d&_wv=1027" target="_blank"><span class="usepng icont_xqbl"></span><em>联想兴趣部落</em></a></li>
+                <li><a href="http://user.qzone.qq.com/2454421820" target="_blank"><span class="usepng icont_qzone"></span><em>联想QQ空间</em></a></li>
+            </ul>
+        </div>
+        <ul class="ns_top_login">
+            <li style="display:none;"><a id="UserNameID" style="display:none;cursor:pointer" href="/my/basicinfo.html"></a></li>
+            <li>
+                <a href="/my/orderlist.html" id="headorderID_a" style="display: none;">我的订单</a>
+                <a href="javascript:void(0);" style="cursor:pointer" onclick="openregister()" id="RegisterID">注册</a>
+            </li>
+            <li class="ns_login_r">
+                <a href="javascript:void(0);" onclick="openlogin()" id="LoginID">登录</a>
+                <a href="javascript:void(0);" id="LogOutID" style="display:none;cursor:pointer;" onclick="openlogout('http://www.lenovouat.cn/activity/rotatingwheel/dazhuanpan.html')">[退出]</a>
+            </li>
+        </ul>
+    </div><!-- site-nav end -->
+</div>
+<!-- site-nav end -->
+<div id="header" class="clearfix">
+    <div class="ns_w clearfix">
+
+        <h1 id="lenovoLogo" class="ns_lenovo-logo"><a href="/index.html">联想官方网上商城</a></h1>
+        <div class="ns_header-extra">
+            <div class="ns_mall-search">
+                <fieldset>
+                    <div class="ns_search-box clearfix">
+                        <legend>联想搜索</legend>
+                        <input type="text" class="ns_s-combobox-input" value="输入商品名称" onfocus="if(this.value=='输入商品名称')this.value='';" onblur="if(this.value=='')this.value='输入商品名称';">
+                        <button type="button" class="usepng" onclick="openproductlist()">搜索</button>
+                    </div>
+                </fieldset>
+                <ul class="ns_hot-query clearfix">
+                    <li style="padding-left:0;"><a href="/product/50362.html">VIBE Shot</a></li>
+                    <li><a href="/pm/productlist.html?code=011405">小新笔记本</a></li>
+                    <li><a href="/pm/productlist.html?code=012101">YOGA笔记本</a></li>
+                    <li><a href="http://www.tks.lenovouat.cn/product/search.html?q=carbon">ThinkPad X1系列</a></li>
+                    <li><a href="/pm/productlist.html?code=030101">乐檬系列</a></li>
+                    <li style="border-right:0;"><a href="/product/42225.html">看家宝MINI</a></li>
+                </ul>
+            </div>
+            <div class="ns_car_box">
+                <a href="/buy/mycart.html"><i class="usepng icon_shopcar"></i>购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  公告 -->
+<div id="site-info" class="ns_fixClear" style="margin-top:-20px; margin-bottom:5px;">
+    <div class="ns_w">
+        <div class="ns_info ns_fl">
+            <div class="ns_mui ns_mui-info"></div>
+            <ul id="J-site-info-ul"></ul>
+        </div>
+    </div>
+</div>
+<div class="ns_main-nav w1200 clearfix" id="main-nav">
+    <div class="nav-category" id="nav-category">
+        <h2><a href="javascript:;" class="btn_category_all">商品频道分类</a></h2>
+        <div class="nav-category-section" id="nav-category-section">
+            <ul class="nav-category-list">
+                <li class="nav-category-item nav-item-lenovo" style="border-top: 0px;">
+                    <div class="nav-category-content">
+                        <h3><a href="/lenovoindex.html">Lenovo PC</a></h3>
+                        <div class="nav-links">
+                            <a href="/pm/productlist.html?code=0114">笔记本电脑</a>
+                            <a href="/pm/productlist.html?code=0113">分体台式电脑</a>
+                            <a href="/pm/productlist.html?code=0141">数码产品</a>
+                            <a href="/pm/productlist.html?code=01140701">游戏笔记本</a>
+                            <a href="/pm/productlist.html?code=0116">一体台式电脑</a>
+                            <a href="http://www.lenovouat.cn/pm/productlist.html?code=0117&key=&sorder=0&spage=1&sarry=1">智能电视</a><br>
+                        </div>
+                        <div class="nav_category_children nav_category_lenovo" style="display: none;">
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0114" class="nav_category_title">笔记本电脑<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=012103">Miix系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01210303">Miix3 8</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011405">小新系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140501">V4000</a><a href="/pm/productlist.html?code=01140502">V3000</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140503">V2000</a><a href="/pm/productlist.html?code=01140504">I1000</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140505">V1070</a><a href="/pm/productlist.html?code=01140507">I2000</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=012101">Yoga系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01210109">Yoga3 14系列</a><a href="/pm/productlist.html?code=01210108">Yoga3 11系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01210107">Yoga3 Pro</a><a href="/pm/productlist.html?code=01210110" style="margin-left: -2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yoga2系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011402">U系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140207">U430系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140202">U31系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011404">S系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140413">S40-70系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140412">S210T系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140419">S41-70系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011406">G系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140624">G50-80系列</a><a href="/pm/productlist.html?code=01140623">G40-80系列</a><a href="/pm/productlist.html?code=01140615">G410系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140617">G50-70系列</a><a href="/pm/productlist.html?code=01140618">G40-70系列</a><a href="/pm/productlist.html?code=01140616">G510系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140625">G400系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=011408">Erazer系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011408">E系列</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=01140701" class="nav_category_title">游戏笔记本<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=011407">拯救者系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01140701">拯救者-14</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011403">Y系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01140311">Y50-70系列</a>
+                                            <a href="/pm/productlist.html?code=01140312">Y40-70系列</a>
+                                            <a href="/pm/productlist.html?code=01140313">Y430p系列</a>
+                                            <a href="/pm/productlist.html?code=01140315">Y40-80系列</a>
+                                            <a href="/pm/productlist.html?code=01140317">Y485系列</a>
+                                            <a href="/pm/productlist.html?code=01140310">Y410系列</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0113" class="nav_category_title">分体台式电脑<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=011307">Erazer异能者</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01130701">X系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011308">G5系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011301">家悦H系列</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0116" class="nav_category_title">一体台式电脑<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=011607">Horizon系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011617">C2系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011615">C3系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011608">C5系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01160802">C56机型</a><a href="/pm/productlist.html?code=01160803">C50机型</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=011601">B5系列</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01160104">B50机型</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0141" class="nav_category_title">数码产品<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=014108">小新移动电源</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                        </div>
+                                        <div class="children_line1">
+                                            <span class="children_line"></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014118">神奇工场</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014199">电脑周边</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014105">IdeaTab选件</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01410502">保护套</a><a href="/pm/productlist.html?code=01410503">保护膜</a><a href="/pm/productlist.html?code=01410504">内胆包</a>
+                                        </div>
+                                        <div class="children_line1">
+                                            <a href="/pm/productlist.html?code=01410506">支架</a><a href="/pm/productlist.html?code=01410508">线材</a><a href="/pm/productlist.html?code=01410509">其它</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014112">闪存盘</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014113">移动硬盘</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014114">录音笔</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=0141100">打印机</a>
+                                        </div>
+                                    </li>
+                                    <li style="padding-right:0;">
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=014101" style="margin-right:0;">其它选件</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="http://www.lenovouat.cn/pm/productlist.html?code=0117&key=&sorder=0&spage=1&sarry=1" class="nav_category_title">智能电视<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix" style="border-bottom:none;">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="http://www.lenovouat.cn/pm/productlist.html?code=011705">E82系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="http://www.lenovouat.cn/pm/productlist.html?code=011703">A3系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="http://www.lenovouat.cn/pm/productlist.html?code=011701"> C2系列</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="http://www.lenovouat.cn/pm/productlist.html?code=011702 "> A3X系列</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-category-item nav-item-thinkpad">
+                    <div class="nav-category-content">
+                        <h3><a target="_blank" href="http://www.tks.lenovouat.cn/">ThinkPad PC</a></h3>
+                    </div>
+                </li>
+                <li class="nav-category-item nav-item-mobile">
+                    <div class="nav-category-content">
+                        <h3><a href="/shouji.html">Lenovo 手机</a></h3>
+                        <div class="nav-links">
+                            <a href="/pm/productlist.html?code=030101">乐檬系列</a>
+                            <a href="/pm/productlist.html?code=030102">VIBE系列</a><br>
+                            <a href="/pm/productlist.html?code=0302">手机选件</a>
+                            <a href="/pm/productlist.html?code=030104">其它系列</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-category-item nav-item-pad">
+                    <div class="nav-category-content">
+                        <h3><a href="/pm/productlist.html?code=0115">平板电脑</a></h3>
+                        <div class="nav-links">
+                            <a href="/pm/productlist.html?code=011511">YOGA平板系列</a>
+                            <a href="/pm/productlist.html?code=011514">YOGA平板2系列</a><br>
+                            <a href="/pm/productlist.html?code=011504">S系列</a>
+                            <a href="/pm/productlist.html?code=011505">A系列</a>
+                            <a href="/pm/productlist.html?code=011516">PHAB 系列</a>
+                        </div>
+                        <div class="nav_category_children nav_category_pad" style="top:-223px;">
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=011511" class="nav_category_title">YOGA平板系列<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01151101">8英寸</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01151102">10英寸</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01151103">HD+</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=011514" class="nav_category_title">YOGA平板2系列<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01151401">8英寸</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01151402">10英寸</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01151404">YOGA平板2Windows版</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01151405">YOGA平板2投影版</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=011504" class="nav_category_title">S系列<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="">S5000</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01150409">S8-50</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=011505" class="nav_category_title">A系列<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01150511">A7-10</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01150515">A7-20</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01150510">A7-30</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01150512">A7-50</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=01150514">A8-50</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=011516" class="nav_category_title">PHAB 系列<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=01151601">PHAB Plus 6.8英寸</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-category-item nav-item-service">
+                    <div class="nav-category-content">
+                        <h3><a href="/serviceindex.html">我要服务</a></h3>
+                        <div class="nav-links">
+                            <a href="/pm/productlist.html?code=0402">硬件升级服务</a>
+                            <a href="/pm/productlist.html?code=0401">电脑延保与上门</a><br>
+                            <a href="/pm/productlist.html?code=0403">电脑软件支持</a>
+                            <a href="/pm/productlist.html?code=0404">电脑清洁保养</a><br>
+                            <a href="/pm/productlist.html?code=0405">智能家居产品</a>
+                            <a href="/pm/productlist.html?code=0406">电脑周边产品</a>
+                        </div>
+                        <div class="nav_category_children nav_category_service" style="top: -315px;">
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0401" class="nav_category_title">电脑延保与上门<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=040101">延长保修</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=040102">上门服务</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0402" class="nav_category_title">硬件升级服务<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=040202">SATA接口固态盘</a>
+                                        </div>
+                                    </li>
+                                    <li style="padding-right:0;">
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=040201" style="margin-right:0;">NGFF接口固态盘</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0403" class="nav_category_title">电脑软件支持<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=040303">电脑加速</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=040302">数据恢复</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=040301">驱动安装</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0404" class="nav_category_title">电脑清洁保养<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=040401">深度立体保养</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0405" class="nav_category_title">智能家居产品<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=040501">联想智能插座</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=040502">联想看家宝</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="children_list clearfix">
+                                <a href="/pm/productlist.html?code=0406" class="nav_category_title">电脑周边产品<em class="usepng icon_ch_l"></em></a>
+                                <ul class="children_detail clearfix">
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <span class="children_line"></span>
+                                            <a href="/pm/productlist.html?code=040601">清洁套装</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="children_detail_title">
+                                            <a href="/pm/productlist.html?code=040602">电池及适配器</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ns_n nsclearfix">
+        <ul>
+            <li><a href="/index.html">首页</a></li>
+            <li><a href="/productlistnew.html">新品</a></li>
+            <li>
+                <a href="javascript:;">爆款</a>
+                <dl>
+                    <dd><a href="/product/50130.html">小新V3000</a></dd>
+                    <dd><a href="/pm/productlist.html?code=01140701">拯救者游戏本</a></dd>
+                    <dd><a href="/product/50362.html">VIBE Shot·大拍</a></dd>
+                    <dd><a href="/hot/socket/socket.html">智能插座</a>
+                </dl>
+            </li>
+            <li><a href="/activityzone.html">特惠</a></li>
+            <li><a href="/c2c/product.html">联想合伙人</a></li>
+            <li><a href="/oldchangenew/oldchangenew.html">以旧换新</a></li>
+            <li><a href="http://club.lenovo.com.cn/">用户社区</a></li>
+        </ul>
+    </div>
+</div>
+<!-- 左侧类别 -->
+<!-- 左侧浮动栏-->
+<div class="ns_mui-mbar-outer" id="J_MUIMallbar" style="height:318px">
+    <ul class="ns_parentBox">
+        <li class="ns_mbar-tab ns_mbar-my"> <a href="/my/basicinfo.html" class="ns_h"><span class="ns_mui ns_mui-my"></span><em>我的</em></a> </li>
+
+        <li class="ns_mbar-tab ns_mbar-stores"> <a href="" class="ns_h"><span class="ns_mui ns_mui-stores"></span><em>门店</em></a> </li>
+        <li class="ns_mbar-tab ns_mbar-mobile ">
+            <a href="javascript:void(0);" class="ns_h"><span class="ns_mui ns_mui-mobile"></span><em>热线</em></a>
+            <div class="ns_mobile-box ns_mbar-li" style="display:none;">
+                <div class="ns_mbar-inner">
+                    <div class="ns_mui ns_mui-tel-lenovo"></div>
+                    <div class="ns_t" style="border-bottom:1px solid #000000">
+                        <div class="ns_p1">Lenovo服务热线</div>
+                        <div class="ns_p2">4000-888-222</div>
+                    </div>
+                    <div class="ns_mui ns_mui-tel-thinkpad"></div>
+                    <div class="ns_t" style="border-bottom:1px solid #000000">
+                        <div class="ns_p1">ThinkPad服务热线</div>
+                        <div class="ns_p2">400-898-9006</div>
+                    </div>
+                    <div class="ns_mui ns_mui-tel-phone"></div>
+                    <div class="ns_t" style="border-bottom:1px solid #000000">
+                        <div class="ns_p1">手机频道服务热线</div>
+                        <div class="ns_p2">400-819-7777</div>
+                    </div>
+                    <div class="ns_mui ns_mui-tel-service"></div>
+                    <div class="ns_t" style="border-bottom:1px solid #000000">
+                        <div class="ns_p1">服务频道服务热线</div>
+                        <div class="ns_p2">400-890-1566</div>
+                    </div>
+                    <div class="ns_mui ns_mui-tel-tv"></div>
+                    <div class="ns_t" style="border-bottom:1px solid #000000">
+                        <div class="ns_p1">智能电视购买热线</div>
+                        <div class="ns_p2">4001005858</div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="ns_mbar-tab ns_mbar-qq ">
+            <a href="javascript:void(0);" class="ns_h">
+                <img class="ns_mui-chatred" src="/images/chatred.png">
+                <!--<span ></span>-->
+                <em>咨询</em>
+            </a>
+            <div class="ns_qq-box ns_mbar-li" style="display:none;width:405px;">
+                <div class="ns_mbar-inner">
+                    <a href="http://www.lenovouat.cn/chat.html?s=0" target="_blank">
+                        <img class="ns_mui-chatred2" src="/images/chatred.png">
+                        <!--<div class="ns_mui-chatblack"></div>-->
+                        <div class="ns_t">
+                            <div class="ns_p1">售前咨询,获取更多优惠</div>
+                            <div class="ns_p2">9:00 - 22:00</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="ns_mbar-inner">
+                    <a href="http://robot.lenovo.com.cn/lenovo/?channel=H325" target="_blank">
+                        <img class="ns_mui-chatred2" src="/images/icon_a.png">
+                        <!--<div class="ns_mui-chatblack"></div>-->
+                        <div class="ns_t">
+                            <div class="ns_p1">服务类售后咨询</div>
+                            <div class="ns_p2">00:00 - 24:00</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li class="ns_mbar-tab ns_mbar-wx ">
+            <a href="javascript:void(0);" class="ns_h"><span class="ns_mui ns_mui-wx"></span><em>扫我</em></a>
+            <div class="ns_wx-box ns_mbar-li" style="display:none">
+                <div class="ns_mbar-inner">
+                    <h3>商城客户端，首次下单立减10元</h3>
+                    <p>
+                        <img src="/images/cd_shop.png">
+                        <span>商城WAP端</span>
+                    </p>
+                    <p>
+                        <img src="/images/cd_Android.png">
+                        <span>商城客户端</span>
+                    </p>
+
+                </div>
+            </div>
+        </li>
+        <li class="ns_mbar-tab ns_mbar-tucao">
+            <a href="/my/tucao.html" class="ns_h" target="_blank">
+                <span class="ns_mui ns_mui-tucao"></span>
+                <em>吐槽</em>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- 左侧浮动栏-->
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/logaction.js"></script>
+
+<script type="text/javascript" src="http://js.lefile.cn/s/pp/pp-0.2.0_v20150909.min.js"></script>
+<script type="text/javascript" src="http://js.lefile.cn/s/pp/rr-0.2.0_v20150909.min.js"></script>
+<script>
+
+    /*获取登陆后相关信息*/
+    $(function () {
+        var PCLoginName = GetLoginUserName();
+        if (PCLoginName != null) {
+            $('#LoginID').hide();
+            $('#RegisterID').hide();
+            $('#UserNameID').show().html(PCLoginName);
+            $("#UserNameID").parent().show();
+            $('#LogOutID').show();
+            $('#headorderID_a').show();
+        } else {
+            $("#youdemai_li").hide();
+        }
+
+    });
+
+</script>
