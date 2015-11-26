@@ -1,0 +1,94 @@
+.atp123123123172 #think_footer {padding: 40px 0;width: 1200px;margin: 0 auto;}
+.atp123123123172 #think_footer .think_share .th_douban {background-position: -92px -5px;}
+.atp123123123172 #think_footer .think_share .th_weibo {background-position: -123px -5px;}
+.atp123123123172 #think_footer .think_share .th_renren {background-position: -154px -5px;}
+.atp123123123172 #think_footer .think_share .th_tencent {background-position: -185px -5px;}
+.atp123123123172 #think_footer .think_share a {display: block;width: 21px;height: 21px;margin-right: 10px;background-image: url(../icons/think_icon.png);text-indent: -9999px;float: left;}
+.atp123123123172 #think_footer .think_link {padding: 20px 0 25px 0;}
+.atp123123123172 #think_footer .think_link li {float: left;height: 16px;line-height: 16px;border-right: 1px solid #4f4f4f;padding: 0 9px;}
+.atp123123123172 #think_footer .think_link li a {font-size: 14px;color: #000;}
+.atp123123123172 #think_footer .think_link li a:hover{color: #e72e25;}
+.atp123123123172 #think_footer .think_copy p {color: #888;line-height: 20px;letter-spacing: 1px;}
+
+.atp123123123171 .shop_advertise{margin-top: 10px;}
+.atp123123123171 #T_service {padding-top: 25px;line-height: 20px;zoom: 1;clear: both;background: #f0f0f0;margin-top: 60px;line-height: 24px;height: 155px;}
+.atp123123123171 #T_service .t_service_con {width: 1200px;margin: 0 auto;}
+.atp123123123171 #shop_contact {float: left;width: 230px;padding-top: 5px;}
+.atp123123123171 #T_service ul {display: block;overflow: auto;zoom: 1;float: right;padding-left: 30px;}
+.atp123123123171 #T_service li {display: block;float: left;width: 150px;position: relative;padding-left: 36px;}
+.atp123123123171 #T_service li i {display: block;position: absolute;left: 0px;top: 6px;width: 29px;height: 29px;background-image: url(../icons/shopicon.png);background-repeat: no-repeat;}
+.atp123123123171 #T_service h2 {font-weight: normal;display: block;padding: 9px 0px 7px 0;margin: 0px;font-size: 16px;line-height: 24px;height: 24px;border: none;background: none;}
+.atp123123123171 #T_service li a {display: block;color: #898989;}
+.atp123123123171 #T_service li a:hover {color: #000;}
+.atp123123123171 .i01 {background-position: -4px -245px;}
+.atp123123123171 .i02 {background-position: -44px -245px;}
+.atp123123123171 .i03 {background-position: -84px -245px;}
+.atp123123123171 .i04 {background-position: -124px -245px;}
+.atp123123123171 .i05 {background-position: -164px -246px;}
+
+.clearfix:after{display: block;clear: both;height: 0;visibility: hidden;font-size: 0;line-height: 0;content: "";}
+ .clearfix{zoom:1;}
+ #think_header{height: 74px;background: #000;}
+ #think_header .think_head_con{width: 1200px;margin: 0 auto;}
+ #think_header .think_logo{float: left;width: 226px;padding-top: 18px;}
+ #think_header .think_car{width: 22px;float: right;padding-top: 26px;}
+ #think_header .think_car a{width: 22px;height: 20px;background-position: -5px -7px;text-indent: -9999px;position: relative;}
+ #think_header .think_car i{width: 8px;height: 8px;background-position: -39px -9px;position: absolute;top: 0;left: 18px;}
+ #think_header .think_user{float: right;padding: 28px 18px;font-size: 15px;height: 16px;line-height: 16px;color: #fff;} 
+ #think_header .think_user a{color: #fff;margin: 0 6px;float: right;margin-top: 1px;}
+ #think_header .think_user a:hover{color: #e72e25;}
+ #think_header .think_user span{float: right;width:4px;}
+ #think_header .think_login{width: 88px;}
+ #think_header .think_register{width: ;text-align: right;}
+ #think_header .think_register .ellipsis{width: 140px;display: inline-block;}
+ #think_header .think_search{width: 200px;height: 26px;border: 1px solid #535353;border-radius: 26px;float: right;overflow: hidden;margin-top: 23px;}
+ #think_header .think_search input{float: left;width: 160px;height: 26px;line-height: 26px;border: 0;background: #000;padding-left: 10px;color: #fff;font-size: 15px;}
+ #think_header .think_search button{width: 26px;height: 26px;text-indent: -9999px;border: 0;background-color: #000;background-position: -55px -5px;cursor: pointer;}
+ #think_header .think_nav{float: left;position: relative;z-index: 9;}
+ #think_header .think_nav .think_nav_border{height: 2px;position: absolute;left: 0;top: 72px;background: #e72e25;width: 0;z-index: 10;}
+ #think_header .think_nav .think_navul{height: 72px;}
+ #think_header .think_nav .think_li{height: 72px;line-height: 72px;padding-right: 100px;float: left;}
+ #think_header .think_nav .think_li .th_nava{font-size: 15px;color: #fff;letter-spacing: 2px;display: block;height: 72px;line-height: 72px;}
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,button,textarea,iframe,table,th,td,em{margin:0;padding:0;list-style: none;}
+body,input,select,button,textarea{font-size:12px;font-family:arial,"微软雅黑",sans-serif;}
+body{background: #e9e9e9;}
+input{outline:none;}
+a{text-decoration: none;}
+a,a:focus{outline:none !important;}
+img,a img{border: 0;vertical-align: top;}
+.usepng{display: inline-block;background-image: url("../nheader/icons/think_icon.png");background-repeat: no-repeat;}
+.clearfix:after{display: block;clear: both;height: 0;visibility: hidden;font-size: 0;line-height: 0;content: "";}
+.clearfix{zoom:1;}
+.clear:after{display: block;clear: both;height: 0;visibility: hidden;font-size: 0;line-height: 0;content: "";}
+.clear{zoom:1;}
+/*文本超出一行显示省略号*/
+.ellipsis{overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+
+/*弹出框*/
+#mask,#mask0{background: #000;filter: alpha(opacity = 50);opacity: 0.5;width: 100%;height: 100%;position: fixed;top: 0px;left: 0px;z-index: 999999;display: none;}
+.u_box{z-index: 1000001;border: 1px solid #d4d4d4;border-radius: 4px;position: fixed;background: #FFF;}
+.u_box_title{height: 46px;padding: 0px 10px 0px 15px;}
+.u_box_title i{display: block;width: 30px;height: 30px;background: url(../images/bg/sprite.png) no-repeat -844px -178px;cursor: pointer;float: right;margin-top: 8px;}
+.u_box_title span{display: block;padding-left: 27px;line-height: 46px;font-size: 22px;background: url(../images/bg/sprite.png) no-repeat -884px -112px;}
+.u_box_cont{padding: 15px;}
+.alert_tip{position: fixed;z-index: 2000000;border-radius: 4px; +text-align: right;background: #FFF;}
+.alert_close{display: block; +display: inline-block;width: 26px;height: 26px;background: url(../images/bg/sprite.png) no-repeat -747px -630px;cursor: pointer;float: right; +float: none; +margin-right: 0 px;}
+.alert_cont{display: inline-block;padding-left: 92px;font-size: 16px;clear: both;margin: 30px;margin-top: 10px;height: 64px;background: url(../images/bg/sprite.png) no-repeat 0px -830px;}
+.alert_cont .txt{display: inline-block;line-height: 24px;overflow: hidden;text-align: left;}
+.clear{clear: both;}
+.e1{background-position: 0px -930px;}
+.order_1{left: 50%; margin-left: -366px; top: 50%; margin-top: -190px; display: none;}
+.order_b{width: 700px; margin: 0px; border: none;}
+.order_b table{width: 700px;}
+.order_1 .u_box_title i{width: 15px; height: 14px; background-position: -752px -636px; margin-top: 14px;}
+.order_1 .u_box_title{height: 42px; line-height: 42px; border-radius: 4px 4px 0px 0px; padding-left: 30px; background: #F2F2F2 url(../images/bg/sprite.png) no-repeat -880px -307px; font-size: 14px; font-weight: bold;}
+/*loading*/
+#loading_box{background: #FFFFFF;width: 100%;height: 100%;position: fixed;top: 0px;left: 0px;z-index: 999999;display: none;}
+#loading_box img{width: 50px;height: 50px;margin: -25px 0px 0px -25px;position: absolute;left: 50%;top: 50%;}
+
+.clear{zoom:1;} .clear:after{content:"";display: block;clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.hid{display: none;}

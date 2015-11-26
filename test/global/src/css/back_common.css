@@ -1,0 +1,73 @@
+/*后台选择模块按钮的样式，公共部分-----------------start*/
+
+.back{position: relative;}
+.piece_cntr{position: relative;}
+.wrap1200{width: 1200px;margin: 0 auto;}
+
+/*用于后台显示宽高或定位的类*/
+.back_h50{height: 50px;}
+.back_h100{height: 100px;}
+.back_h200{height: 200px;}
+.back_h300{height: 300px;}
+.back_h500{height: 300px;}
+.back_w50{width: 50px;}
+.back_w100{width: 100px;}
+.back_w200{width: 200px;}
+.back_w300{width: 300px;}
+.back_t50{top: 50px;}
+.back_height{height: 300px;}
+
+.btn_group{position: absolute;top: 0;right: 0;z-index: 1000;}
+.choseBtn{float:right;position: relative;border-radius:4px;overflow: hidden;margin-right: 10px;margin-bottom: 6px;}
+.bg,.bg2,.bg3,.bgli{background: black;filter:alpha(opacity=10);opacity: .1;position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 1;}
+.btn_ctn{position: relative;height: 20px;width: 80px;padding: 4px;text-align: center;color: #ffffff;cursor: pointer;z-index: 2;font-size: 12px;line-height: 20px;}
+.btn7{display: none;}
+.config_btn_show .btn7{display: block;}
+
+.choseBtn:hover .bg{filter:alpha(opacity=50);opacity: .5;}
+
+	/*后台选择碎片的弹出窗口*/
+#chose_pieces_cntr{}
+#chose_pieces_cntr .bg3{z-index: 1001;filter:alpha(opacity=40);opacity: .4;}
+#chose_pieces_win{width: 800px;height: 400px;position: fixed;top: 24%;left: 50%;margin-left: -400px;z-index: 1002;padding: 10px;}
+#chose_pieces_win .bg2{filter:alpha(opacity=40);opacity: .4}
+#chose_pieces_win .content{position: relative;z-index: 2;color: #ffffff;height: 100%;}
+.c_title{font-size: 12px;line-height: 24px;height: 24px;margin-bottom: 10px;}
+.c_left{position: absolute;top:0;left:0;width: 45%;height:100%;}
+.c_right{position: absolute;top:0;right:0;width: 50%;height:100%;}
+.piece_ul{height: 90%;overflow: auto;}
+.piece_ul li{border-top: 1px solid #cccccc;height: 32px;line-height: 32px;padding-left: 20px;cursor: pointer;position: relative;}
+.bgli{filter:alpha(opacity=50);opacity: .5;}
+.isupdate{color: red;margin-left: 10px;}
+.ctnli{position: relative;z-index: 2;}
+.piece_ul li:hover{background: #AFAA58;color: rgba(222,161,20,0.81);}
+.border_top_none{border-top: none!important;}
+.prev_view{height: 90%;position: relative;overflow-y: auto;overflow-x: hidden;}
+.prev_view img{width: 100%;height: auto;border: none;}
+
+	/*加入的碎片中的按钮的样式*/
+.btn_cntr_in_piece{position: relative;}
+.btn_wrap_in_piece{position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: 990;}
+.btn_bg_in_piece{position: absolute;top: 0;left: 0;height: 100%;width: 100%;background: #000000;filter:alpha(opacity=20);opacity: .2;z-index: 1;}
+.btn_in_piece{position: absolute;top: 50%;left: 50%;height: 40px;width: 100px;margin-top: -20px;margin-left: -50px;z-index: 2;line-height: 40px;text-align: center;color: #41423F;border-radius: 4px;cursor: pointer;background: #AD8251;filter:alpha(opacity=50);opacity: .5;}
+.btn_in_piece1{position: absolute;right: -82px;height: 18px;width: 56px;z-index: 2;line-height: 18px;text-align: center;color: #ffffff;border-radius: 4px;overflow: hidden;background: #AD8251;}
+.btn_in_piece .t{top: 0;right: -23px;height: auto;width: 20px;line-height: 20px;font-size: 12px;}
+.btn_in_piece .k{top: 0;}
+.btn_in_piece .g{top: 22px;}
+.btn_wrap_in_piece:hover .btn_bg_in_piece{filter:alpha(opacity=70);opacity: .7;}
+.btn_wrap_in_piece:hover .btn_in_piece{filter:alpha(opacity=100);opacity: 1;}
+.btn_in_piece:hover{background: #E7A55B;color: #ffffff;}
+
+	/*生成静态页面按钮样式*/
+#generate_html_btn{position: fixed;top: 30%;width: 20px;margin-right: 0;margin-bottom: 0;padding: 4px;z-index: 10;}
+#generate_html_btn .bg{opacity: .4;}
+#generate_html_btn:hover .bg{opacity: .8}
+#generate_html_btn .btn_ctn{height: auto;width: 20px;padding: 0;}
+
+	/*预览按钮样式*/
+#prev_view_btn{position: fixed;top: 30%;width: 20px;margin-right: 0;margin-bottom: 0;padding: 4px;z-index: 10;}
+#prev_view_btn .bg{opacity: .4;}
+#prev_view_btn:hover .bg{opacity: .8}
+#prev_view_btn .btn_ctn{height: auto;width: 20px;padding: 0;}
+
+/*后台选择模块按钮的样式，公共部分-----------------end*/
